@@ -1,1 +1,6 @@
 bing.com##.b_attribution:matches-css-before(border: 1px solid rgb(221, 221, 221)):upward(2)
+
+bing.com##.b_attribution:matches-css-before(display:block):upward(2)
+bing.com##.b_attribution:matches-css-before(display:inline):upward(2)
+bing.com##.b_attribution:matches-css-before(display:inline-block):upward(2)
+bing.com##.b_attribution:matches-css-before(display:flex):upward(2)

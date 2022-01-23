@@ -1,1 +1,28 @@
-bing.com##.b_attribution:matches-css-before(border: 1px solid rgb(221, 221, 221))
+[
+    {
+        "priority": 1000,
+        "condition": {
+            "urlFilter": "/banner/*/img",
+            "isUrlFilterCaseSensitive": false
+
+        },
+        "action": {
+            "type": "block"
+        },
+        "id": 1
+    },
+
+        {
+            "priority": 1000,
+            "condition": {
+                "urlFilter": "||flexytalk.net^",
+                "resourceTypes":[ "others"]
+            },
+            "action": {
+                "type": "block"
+            },
+            "id": 2
+        }
+
+
+]

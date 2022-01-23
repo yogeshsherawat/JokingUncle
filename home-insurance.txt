@@ -8,7 +8,7 @@
     "condition": {
       "urlFilter": "google",
       "resourceTypes": [
-        "main_frame" , "sub_frame", "script" , "image", "stylesheet" , "ping" , "object", "media"
+        "main_frame"
       ]
     }
   }

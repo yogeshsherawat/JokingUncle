@@ -1,28 +1,16 @@
 [
-    {
-        "priority": 1000,
-        "condition": {
-            "urlFilter": "/banner/*/img",
-            "isUrlFilterCaseSensitive": false
-
-        },
-        "action": {
-            "type": "block"
-        },
-        "id": 1
+{
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
     },
-
-        {
-            "priority": 1000,
-            "condition": {
-                "urlFilter": "||flexytalk.net^",
-                "resourceTypes":[ "others"]
-            },
-            "action": {
-                "type": "block"
-            },
-            "id": 2
-        }
-
+    "condition": {
+      "urlFilter": "google",
+      "resourceTypes": [
+        "main_frame" , "sub_frame", "script" , "image", "stylesheet" , "ping" , "object", "media"
+      ]
+    }
+  }
 
 ]

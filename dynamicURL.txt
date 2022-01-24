@@ -25,6 +25,20 @@
         "main_frame"
       ]
     }
+  },
+  
+{
+    "id": 10002,
+    "priority": 100,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "forbes",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 
 ]

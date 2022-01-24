@@ -11,6 +11,20 @@
         "main_frame"
       ]
     }
+  },
+  
+{
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "animxplay",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 
 ]
